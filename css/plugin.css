@@ -1,0 +1,265 @@
+
+#team_member_area  .default-style{
+overflow:hidden;
+}
+#team_member_area  .default-style .team_profile_wrap{
+float: left;
+margin: 15px 12px;
+overflow: hidden;
+width: 215px;
+}
+#team_member_area  .default-style .team_profile_pic{
+border: 5px solid #ffffff;
+border-radius: 10%;
+box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.8);
+display: inline-block;
+height: 170px;
+margin: 15px;
+overflow: hidden;
+transition: all 0.6s ease 0s;
+width: 170px;
+background-size:100% 100% !important;
+}
+#team_member_area  .default-style .team_profile_pic:hover{
+box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+}
+#team_member_area  .default-style .team_profile_desc{display:none}
+#team_member_area  .default-style .team_profile_desc p{}
+#team_member_area  .default-style .team_profile_ttl{}
+#team_member_area  .default-style .team_profile_ttl .member_name{
+color: #333;
+font-size: 20px;
+font-weight: bold;
+line-height: 30px;
+margin: -10px 0 0 15px;
+}
+#team_member_area  .default-style .team_profile_ttl .member_rank{
+color: #333;
+font-size: 15px;
+font-style: italic;
+line-height: 20px;
+margin: 0 0 0 15px;
+}
+#team_member_area  .default-style .team_profile_ttl .member_socials ul {
+list-style: none outside none;
+margin: 5px 0 0 15px;
+padding: 0;
+}
+#team_member_area  .default-style .team_profile_ttl .member_socials ul  li{
+float: left;
+margin:0 5px 0 0;
+}
+#team_member_area  .default-style .team_profile_ttl .member_socials ul  li a i{
+border-radius: 4px;
+color: #fff;
+height: 17px;
+padding: 4px 3px 2px 4px;
+width: 15px;}
+#team_member_area  .default-style .team_profile_ttl .member_socials ul  li a i:hover{
+opacity:.85;
+}
+#team_member_area  .default-style .team_profile_ttl .member_socials ul  li a i.fa-linkedin{background:#0077b5;}
+#team_member_area  .default-style .team_profile_ttl .member_socials ul  li a i.fa-facebook{ background:#4862A3}
+#team_member_area  .default-style .team_profile_ttl .member_socials ul  li a i.fa-twitter{ background:#57ABED}
+#team_member_area  .default-style .team_profile_ttl .member_socials ul  li a i.fa-youtube{ background:#AF100A}
+
+/*=========== circle style ============================ */
+#team_member_area  .circle-style{
+overflow:hidden;
+}
+#team_member_area  .circle-style .team_profile_wrap{
+float: left;
+margin: 5px 12px;
+overflow: hidden;
+width: 215px;
+position: relative;
+}
+#team_member_area  .circle-style .team_profile_wrap:hover .team_profile_ttl{
+opacity:1;
+}
+#team_member_area  .circle-style .team_profile_wrap:hover .team_profile_pic{
+box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+}
+#team_member_area  .circle-style .team_profile_pic{
+border: 5px solid #ffffff;
+border-radius: 50%;
+box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.8);
+display: inline-block;
+height: 170px;
+margin: 15px;
+overflow: hidden;
+transition: all 0.6s ease 0s;
+width: 170px;
+background-size:100% 100% !important;
+}
+
+#team_member_area  .circle-style .team_profile_desc{display:none}
+#team_member_area  .circle-style .team_profile_desc p{}
+#team_member_area  .circle-style .team_profile_ttl{
+background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+color: #fff;
+height: 170px;
+left: 20px;
+margin: 0;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+top: 20px;
+transition: all 0.6s ease 0s;
+width: 170px;
+border-radius: 50%;
+line-height: 16px;
+}
+#team_member_area  .circle-style .team_profile_ttl .member_name{
+color: #fff;
+font-family: helvetica;
+font-size: 20px;
+line-height: 25px;
+margin: 50px 0 5px;
+text-align: center;
+}
+#team_member_area  .circle-style .team_profile_ttl .member_rank{
+color: #fff;
+font-family: helvetica;
+font-size: 16px;
+font-style: italic;
+margin: 2px 0 0;
+text-align: center;
+line-height: 20px;
+}
+#team_member_area  .circle-style .team_profile_ttl .member_rank i{
+display:none;
+}
+#team_member_area  .circle-style .team_profile_ttl .member_socials ul {
+list-style: none outside none;
+margin: 5px 0 0 33px;
+padding: 0;
+text-align: center;
+}
+#team_member_area  .circle-style .team_profile_ttl .member_socials ul  li{
+float: left;
+margin:0 5px 0 0;
+}
+#team_member_area  .circle-style .team_profile_ttl .member_socials ul  li a i{
+border-radius: 4px;
+color: #fff;
+height: 17px;
+padding: 4px 3px 2px 4px;
+width: 15px;}
+#team_member_area  .circle-style .team_profile_ttl .member_socials ul  li a i:hover{
+opacity:.85;
+}
+
+
+
+/*=========== hover style ============================ */
+#team_member_area  .hover-style{
+overflow:hidden;
+}
+#team_member_area  .hover-style .team_profile_wrap{
+float: left;
+margin: 20px 12px;
+width: 215px;
+background: none repeat scroll 0 0 #fff;
+border-bottom: 2px solid #ff6c60;
+border-radius: 3px;
+height: 260px !important;
+overflow: hidden;
+position: relative;
+}
+#team_member_area  .hover-style .team_profile_wrap:hover .team_profile_ttl{
+height: 132px !important;
+margin-top:-40px;
+}
+#team_member_area  .hover-style .team_profile_wrap:hover .team_profile_desc{
+height: 170px;
+opacity: 1;
+}
+#team_member_area  .hover-style .team_profile_pic{
+background-size: 100% 100% !important;
+border-radius: 3px 3px 0 0;
+height: 170px;
+overflow: hidden;
+position: relative;
+text-align: center !important;
+}
+
+#team_member_area  .hover-style .team_profile_desc{
+background:rgba(50, 58, 69, 0.8);
+bottom: 0;
+display: block;
+height: 0;
+left: 0;
+opacity: 0;
+position: absolute;
+width: 100%;
+transition: all 0.3s ease 0s;
+font-family:helvetica;
+}
+#team_member_area  .hover-style .team_profile_desc p{
+color: #fff;
+font-size: 13px;
+height: 125px;
+line-height: 18px;
+overflow: hidden;
+padding: 25px 10px 20px;
+font-family: helvetica;
+}
+#team_member_area  .hover-style .team_profile_ttl{
+height: 132px !important;
+overflow: hidden;
+text-align: center;
+transition: all 0.3s ease 0s;
+background:#fff;
+position:relative;
+z-index:1;
+}
+#team_member_area  .hover-style .team_profile_ttl .member_name{
+color: #f26e71 !important;
+font-family: helvetica;
+font-size: 25px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 0;
+margin-top: 15px;
+}
+#team_member_area  .hover-style .team_profile_ttl .member_rank{
+font-family: helvetica;
+font-size: 20px;
+font-weight: 300 !important;
+line-height: 30px;
+margin: 8px 0 0;
+}
+#team_member_area  .hover-style .team_profile_ttl .member_rank i{
+display:none;
+}
+#team_member_area  .hover-style .team_profile_ttl .member_socials ul {
+height: 40px;
+list-style: outside none none;
+margin: 5px 0 0 45px;
+padding: 0;
+text-align: center;
+}
+#team_member_area  .hover-style .team_profile_ttl .member_socials ul  li{
+float: left;
+margin: 0 5px 0 0;
+}
+#team_member_area  .hover-style .team_profile_ttl .member_socials ul  li a i{
+border: 1px solid #ddd;
+border-radius: 3px;
+padding: 4px;
+width: 16px;}
+#team_member_area  .hover-style .team_profile_ttl .member_socials ul  li a{
+color: #acafb8;
+display: block;
+font-size: 18px;
+margin: 0;
+padding: 0;}
+#team_member_area  .hover-style .team_profile_ttl .member_socials ul  li a i:hover{
+opacity:.85;
+}
+
+
+
+
+

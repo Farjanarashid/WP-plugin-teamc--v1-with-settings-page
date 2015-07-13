@@ -1,0 +1,17 @@
+.team_admin_form h3{
+	margin-left: -15px !important;
+	margin-right: -15px !important;
+	border-bottom: 1px solid #eee;
+}
+.team_admin_form p{
+	margin-bottom: 15px;
+}
+.team_admin_form p .team_member_title{
+	display: block;
+	float: left;
+	font-size: 14px;
+	width: 16%;
+}
+.team_admin_form input, .team_admin_form textarea {
+  padding: 5px 15px;
+}
